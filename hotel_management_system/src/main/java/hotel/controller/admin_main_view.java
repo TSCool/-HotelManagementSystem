@@ -8,7 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 public class admin_main_view{
 	
 	@RequestMapping("test")
-	public String mainview() {
-		return "1321";
+	public ModelAndView mainview() {
+		System.out.println("hellowmyproject");
+		ModelAndView mo = new ModelAndView();
+		mo.setViewName("main");
+		return mo;
 	}
 }
