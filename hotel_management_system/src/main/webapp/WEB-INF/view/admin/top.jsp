@@ -5,8 +5,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../css/adminstyle/index.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/adminstyle/index.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/src/main/webapp/static/css/public.css"/>
 	</head>
 	<body>
 		<!--顶部开始-->
@@ -44,31 +44,31 @@
 					<div id="top_right_content" class="flexaro">
 						<div class="top_right_function">
 							<div class="flexaro">
-								<img src="../../img/icon/home.png" />
+								<img src="${pageContext.request.contextPath}/static/image/icon/home.png" />
 							</div>
 							<p>欢迎页面</p>
 						</div>
 						<div class="top_right_function">
 							<div class="flexaro">
-								<img src="../../img/icon/manager.png" />
+								<img src="${pageContext.request.contextPath}/static/image/icon/manager.png" />
 							</div>
 							<p>入住管理</p>
 						</div>
 						<div class="top_right_function">
 							<div class="flexaro">
-								<img src="../../img/icon/sou.png" />
+								<img src="${pageContext.request.contextPath}/static/image/icon/sou.png" />
 							</div>
 							<p>信息查询</p>
 						</div>
 						<div class="top_right_function">
 							<div class="flexaro">
-								<img src="../../img/icon/float.png" />
+								<img src="${pageContext.request.contextPath}/static/image/icon/float.png" />
 							</div>
 							<p>楼层管理</p>
 						</div>
 						<div class="top_right_function">
 							<div class="flexaro">
-								<img src="../../img/icon/set.png" />
+								<img src="${pageContext.request.contextPath}/static/image/icon/set.png" />
 							</div>
 							<p>页面设置</p>
 						</div>

@@ -1,0 +1,187 @@
+/*底部中间样式开始*/
+#botcenter{
+	width: 100%;
+	min-width: 450px;
+	border: 2px dimgray solid;
+	border-radius: 8px;
+	color: black;
+	font-size: 12px;
+	background: white;
+	height: 455px;
+}
+#home_state{
+	width: 60%;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	margin-left: 7px;
+}
+.home_state_content{
+	width: 16%;
+	height: 25px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.home_state_content div:first-child{
+	width: 10px;
+	height: 10px;
+	background: darkgoldenrod;
+}
+#color1{
+	background: #2E9AFE;
+}
+#color2{
+	background: #FE9A2E;
+}
+#color3{
+	background: #04B486;
+}
+#color4{
+	background: #6E6E6E;
+}
+#color5{
+	background: #0B3B2E;
+}
+.home_state_content div:last-child{
+	width: 53px;
+}
+.home_number{
+	width: 95%;
+}
+.home_number div{
+	width: 60px;
+	height: 60px;
+	font-size: 21px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: darkslategray;
+	border-radius: 8px;
+}
+.home_number div img{
+	width: 35px;
+	height: 35px;
+}
+.number{
+	width: 95%;
+}
+.number div{
+	width: 60px;
+	height: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/*底部中间样式结束*/
+
+/*<普通客户入住>*/
+.content_all{
+	width: 100%;
+	height: 455px;
+	min-width: 650px;
+	border: 2px dimgray solid;
+	border-radius: 8px;
+	background: #CCCC99;
+}
+#general_top{
+	width: 100%;
+	height: 25px;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	background: yellowgreen;
+}
+.general_content_left select,input{
+	width: 110px;
+}
+.general_content_left div{
+	display: flex;
+	flex-flow:row-reverse;
+}
+#general_content_right button{
+	width: 60px;
+}
+#general_center{
+	height: 30px;
+	margin-top: 30px;
+}
+#general_center li{
+	width: 16%;
+	list-style: none;
+	text-align: center;
+	line-height: 25px;
+	border: 2px darkgray solid;
+}
+#general_bot{
+	margin-top: 30px;
+}
+#general_botleft{
+	width: 63%;
+}
+#general_botleft_content div{
+	display: flex;
+	flex-flow: row-reverse;
+	margin-top: 3px;
+}
+#general_botleft_content div input{
+	width: 100px;
+}
+#general_botlefttop{
+	background-image:linear-gradient(to bottom, #333333 0%, #CCCCCC 100%);
+	width: 100%;
+	color: white;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	height: 25px;
+}
+#general_botright{
+	width: 37%;
+}
+#general_botright_content_all{
+	width: 100%;
+	height: 150px;
+	align-items: center;
+}
+#general_botright_content{
+	width: 80%;
+	margin: 0 auto;
+}
+#general_botright_content div{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+#general_botright_content div input,select{
+	width: 90px;
+}
+/*<普通客户入住结束>*/
+/*客户房间预定开始*/
+#bookedtop{
+	height: 60px;
+	align-items: center;
+}
+#bookedcennter{
+	height: 295px;
+}
+#bookedcennter div{
+	margin-top: 15px;
+}
+#booked_commit{
+	display: flex;
+	flex-flow: row-reverse;
+}
+#bookedbot{
+	height: 100px;
+}
+#bookedbot div:first-child{
+	height: 65px;
+}
+/*客户房间预定结束*/
+/*客户入住记录*/
+#record{
+	width: 100%;
+}
+/*客户入住记录结束*/

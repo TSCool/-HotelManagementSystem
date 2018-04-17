@@ -1,0 +1,34 @@
+.topback{
+	background: #424242;
+}
+.topheight{
+	height: 35px;
+}
+.topcontain{
+	width: 98%;
+}
+.topleft{
+	width: 300px;
+}
+.topcontent{
+	width: 230px;
+	align-items: center;
+	list-style: none;
+}
+.topcontent div:first-child{
+	width: 100px;
+}
+.topcontent div:nth-child(2){
+	width: 55px;
+}
+.topcontent div:last-child{
+	width: 55px;
+}
+.topcontent img{
+	width: 15px;
+	height: 15px;
+}
+#right{
+	display: flex;
+	flex-flow: row-reverse;
+}
