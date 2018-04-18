@@ -5,10 +5,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../css/adminstyle/index.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<script type="text/javascript" src="../../js/jquery-3.3.1.min.js" ></script>
-		<script type="text/javascript" src="../../js/admin/index.js" ></script>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/adminstyle/index.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/public.css"/>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/admin/index.js" ></script>
 	</head>
 	<body>
 		<!--底部右侧内容开始-->
@@ -16,7 +16,7 @@
 					<div id="right_top" class="flexaro">
 						<div id="right_content">
 							<div class="flexaro">
-								<img src="../../img/icon/i.png" />
+								<img src="${pageContext.request.contextPath}/static/image/icon/i.png" />
 								<h2>艾特酒店管理系统提醒您</h2>
 							</div>
 							<div>

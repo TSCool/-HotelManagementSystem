@@ -2,12 +2,10 @@
 	width: 100%;
 	color: white;
 }
-/*顶部样式*/
+/*椤堕儴鏍峰紡*/
 #top{
 	height: 20%;
 	min-width: 1130px;
-	/*background-image: url(../../../img/adminimg/22659.jpg);
-    background-size: cover;*/
    color: white;
    background: #333333;
 }
@@ -24,7 +22,6 @@
 #headimg{
 	width: 80px;
 	height: 80px;
-	background: url(../../../img/headimg/u=567132550,1405025327&fm=27&gp=0.jpg);
 	background-size: cover;
 	border-radius: 50%;
 }
@@ -97,10 +94,10 @@
 	width: 100%;
 	height: 100%;
 }*/
-/*顶部样式结束*/
+/*椤堕儴鏍峰紡缁撴潫*/
 
 
-/*底部左侧样式开始*/
+/*搴曢儴宸︿晶鏍峰紡寮�濮�*/
 #bot{
 	height: 80%;
 	min-width: 1130px;
@@ -111,7 +108,6 @@
 	width: 100%;
 	min-width: 180px;
 	height: 455px;
-	color: white;
 	overflow: scroll;
 	border: 1px dimgray solid;
 }
@@ -181,9 +177,9 @@
 	width: 20px;
 	height: 20px;
 }
-/*底部左侧样式结束*/
+/*搴曢儴宸︿晶鏍峰紡缁撴潫*/
 
-/*底部右侧样式开始*/
+/*搴曢儴鍙充晶鏍峰紡寮�濮�*/
 #botright{
 	width: 100%;
 	min-width: 310px;
@@ -231,4 +227,4 @@
 	border: 1px darkslategray solid;
 	border-radius: 5px;
 }
-/*底部右侧样式结束*/
+/*搴曢儴鍙充晶鏍峰紡缁撴潫*/

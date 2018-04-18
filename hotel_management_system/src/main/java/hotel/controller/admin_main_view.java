@@ -1,11 +1,16 @@
 package hotel.controller;
 
+import java.io.IOException;
+
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import hotel.util.session;
 
 @Controller
 public class admin_main_view{
@@ -19,7 +24,7 @@ public class admin_main_view{
 		if(pathname.equals("top.view")) {
 			mo.setViewName("top");
 		}
-		/*else if(pathname.equals("left.view")) {
+		else if(pathname.equals("left.view")) {
 			mo.setViewName("left");
 		}
 		else if(pathname.equals("center.view")) {
@@ -27,7 +32,7 @@ public class admin_main_view{
 		}
 		else if(pathname.equals("right.view")) {
 			mo.setViewName("right");
-		}*/
+		}
 		return mo;
 	}
 }

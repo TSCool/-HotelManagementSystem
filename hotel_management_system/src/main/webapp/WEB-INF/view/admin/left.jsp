@@ -5,21 +5,21 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../css/adminstyle/index.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<script type="text/javascript" src="../../js/jquery-3.3.1.min.js" ></script>
-		<script type="text/javascript" src="../../js/admin/index.js" ></script>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/adminstyle/index.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/public.css"/>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/admin/index.js" ></script>
 	</head>
 	<body>
 		<!--底部左侧内容-->
 				<div id="botleft">
 					<div class="main_drop flexaro">
-						<div>入住管理</div>
+						<div id="one"><a style="text-decoration: none;color: white;" href="center.left" target="center">入住管理</a></div>
 						<div name="drop">一</div>
 					</div>
 					<div class="drop_down" name="drop_content">
-						<li><a href="ingeneral.html" target="center">普通入住</a></li>
-						<li><a href="booked.html" target="center">预定入住</a></li>
+						<li><a href="ingeneral.left" target="center">普通入住</a></li>
+						<li><a href="booked.left" target="center">预定入住</a></li>
 						<li><a href="member.html">会员入住</a></li>
 						<li><a href="defriend,html">拉黑提醒</a></li>
 					</div>
@@ -29,7 +29,7 @@
 					</div>
 					<div class="drop_down hidden" name="drop_content">
 						<li>客户信息</li>
-						<li><a href="record.html" target="center">入住记录</a></li>
+						<li><a href="record.left" target="center">入住记录</a></li>
 						<li>客户预定</li>
 					</div>
 					<div class="main_drop flexaro">

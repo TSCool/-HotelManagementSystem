@@ -5,10 +5,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="../css/adminstyle/content.css" />
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<script type="text/javascript" src="../../js/jquery-3.3.1.min.js" ></script>
-		<script type="text/javascript" src="../../js/admin/index.js" ></script>
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/adminstyle/content.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/public.css"/>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/admin/index.js" ></script>
 	</head>
 	<body>
 		<!--底部中间内容-->
@@ -38,20 +38,20 @@
 					<div class="flexaro home_number">
 						<div>普通单间</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>入住登记</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 					</div>
 					<div class="flexaro number">
@@ -66,20 +66,20 @@
 					<div class="flexaro home_number">
 						<div>普通单间</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>入住登记</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 					</div>
 					<div class="flexaro number">
@@ -94,20 +94,20 @@
 					<div class="flexaro home_number">
 						<div>普通单间</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>入住登记</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 					</div>
 					<div class="flexaro number">
@@ -122,20 +122,20 @@
 					<div class="flexaro home_number">
 						<div>普通单间</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>入住登记</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 					</div>
 					<div class="flexaro number">
@@ -150,20 +150,20 @@
 					<div class="flexaro home_number">
 						<div>普通单间</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>入住登记</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 						<div>
-							<img src="../../img/icon/homeimg.png" />
+							<img src="${pageContext.request.contextPath}/static/image/icon/homeimg.png" />
 						</div>
 					</div>
 					<div class="flexaro number">

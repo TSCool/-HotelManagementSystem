@@ -6,18 +6,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="../css/adminstyle/content.css" />
-		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/adminstyle/content.css" />
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/public.css" />
 	</head>
 
 	<body>
 		<div class="content_all">
-			<form action="" method="post">
+			<form action="ingeneral.do" method="post">
 				<div id="general_top">房间520的旅客信息，接待对象:普通人员</div>
 				<div id="general_top_content" class="flexaro width">
 					<div class="general_content_left">
 						<div>
-							<select>
+							<select name="homenum">
 								<option value="132">520</option>
 								<option value="132">110</option>
 							</select>
@@ -43,20 +43,17 @@
 							<p>人数</p>
 						</div>
 						<div>
-							<select>
-								<option value="132">旅客自付</option>
-								<option value="132">委托支付</option>
-							</select>
-							<p>结账单位</p>
+							<input type="text" name="type"/>
+							<p>房间类型</p>
 						</div>
 					</div>
 					<div class="general_content_left">
 						<div>
-							<input type="text" value="2018.3.28">
+							<input type="date" name="come" value="2018.3.28">
 							登记时间
 						</div>
 						<div>
-							<input type="text" value="180.00￥">
+							<input type="text" name="money" value="180.00￥">
 							标准房价
 						</div>
 						<div>
@@ -64,7 +61,7 @@
 							优惠房价
 						</div>
 						<div>
-							<input type="text" value="2018.3.29">
+							<input type="date" name="go" value="2018.3.29">
 							预计离店
 						</div>
 						<div>
@@ -103,17 +100,17 @@
 						<div id="general_botlefttop">流水号：4359 &nbsp房间号:520 &nbsp接待对象：普通人员</div>
 						<div class="flexaro">
 							<div id="general_botleft_content">
-								<div><input type="text"><p>姓名</p></div>
-								 <div><input type="text" />性别</div>
+								<div><input name = "name" type="text"><p>姓名</p></div>
+								 <div><input name="sex" type="text" />性别</div>
 								 <div><input type="text" />民族</div>
-								 <div><input type="text" />出生日期</div>
-								 <div><input type="text" />地址</div>
-								 <div><input type="text" />身份证号码</div>
-								 <div><input type="text" />发证机关</div>
+								 <div><input name = "year" type="date" />出生日期</div>
+								 <div><input name="address" type="text" />地址</div>
+								 <div><input name="idcard" type="text" />身份证号码</div>
+								 <div><input name = "phone" type="text" />联系方式</div>
 								 <div><input type="text" />证件有效日期</div>
 							</div>
 							<div>
-								<img src="../../img/headimg/u=567132550,1405025327&fm=27&gp=0.jpg" />
+								<img src="${pageContext.request.contextPath}/static/image/headimg/headimg.jpg" />
 							</div>
 						</div>
 					</div>
@@ -138,7 +135,9 @@
 						</div>
 						</div>
 						<div>
-							<p><button>读身份证</button><button>复制资料</button><button>帮助</button></button2></p>
+							<p><button>读身份证</button><button>复制资料</button>
+							<input type= "submit" value="提交"/>
+							</button2></p>
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+ 
+<mapper namespace="hotel.dao.CustomMapper">
+<select id="selectall" resultType="hotel.entity.Custom">
+select (name,phone,sex,address,idcard) from custom;
+</select>
+
+<insert id="insertone" parameterType="hotel.entity.Custom">
+insert into custom(name,phone,sex,address,idcard) values(#{name},#{phone},#{sex},#{address},#{idcard});
+</insert>
+</mapper>

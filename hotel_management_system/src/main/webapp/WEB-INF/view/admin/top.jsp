@@ -6,7 +6,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/adminstyle/index.css"/>
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/src/main/webapp/static/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/public.css"/>
 	</head>
 	<body>
 		<!--顶部开始-->
@@ -15,10 +15,10 @@
 				<div id="top_left" class="flexbet">
 					<div id="headimg_all">
 						<div id="all">
-							<div id="headimg"></div>
+							<div id="headimg" style="background-image: url(${pageContext.request.contextPath}/static/image/headimg/headimg.jpg)"></div>
 							<div id="admin">
 								<p>当前用户</p>
-								<p>shuo</p>
+								<p>${username}</p>
 							</div>
 						</div>
 					</div>

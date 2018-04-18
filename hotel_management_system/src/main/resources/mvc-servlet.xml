@@ -6,8 +6,13 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 	<context:component-scan base-package="hotel.controller" />
-	
 	<mvc:annotation-driven/>
+	
+	<!-- 放行所有静态文件 -->
+	<mvc:resources mapping="/js/**" location="/static/js/"/>
+    <mvc:resources mapping="/css/**" location="/static/css/"/>
+    <mvc:resources mapping="/image/**" location="/static/image/"/>
+    <mvc:default-servlet-handler />
 	<!-- 自动加载处理器 -->
 	<!-- <mvc:annotation-driven conversion-service="conversionService" />
 	<mvc:resources location="/static/" mapping="/static/**"></mvc:resources>

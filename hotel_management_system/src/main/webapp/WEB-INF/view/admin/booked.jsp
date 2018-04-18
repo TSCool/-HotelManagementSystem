@@ -5,8 +5,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="../css/adminstyle/content.css" />
-		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/adminstyle/content.css" />
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/public.css" />
 	</head>
 	<body>
 		<div class="content_all">

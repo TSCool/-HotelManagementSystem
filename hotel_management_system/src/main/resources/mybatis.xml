@@ -7,4 +7,18 @@
 		<setting name="cacheEnabled" value="true" />
 		<setting name="logImpl" value="LOG4J" />
 	</settings>
+	<environments default="development">
+	<environment id="development">
+	<transactionManager type="JDBC" />
+	<dataSource type="POOLED">
+	<property name="driver" value="com.mysql.jdbc.Driver"/>
+	<property name="url" value="jdbc:mysql://localhost:3306/hotel_management"/>
+	<property name="username" value="root"/>
+	<property name="password" value="1002"/>
+	</dataSource>
+	</environment>
+	</environments>
+	<mappers>
+	<package name="hotel.dao"/>
+	</mappers>
 </configuration>
